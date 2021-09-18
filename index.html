@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diversifi Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+    <!--header-->
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-left">
+                    <div class="header-left-logo">
+                        <a href="./index.html" class="header-left-logo-link"><img src="./img/header/logo-black.svg" alt="logoblack"></a>
+                    </div>
+                </div>
+                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="menu-open-icon" width="24px" height="24px">
+                        <use href="./img/sprite.svg#icon-menu"></use>
+                    </svg>
+                </button>
+                <div class="header-right">
+                        <ul class="header-menu">
+                            <li class="header-menu-item"><a href="./index.html" class="header-menu-link active">Home</a></li>
+                            <li class="header-menu-item"><a href="./products.html" class="header-menu-link">Products</a></li>
+                            <li class="header-menu-item"><a href="#" class="header-menu-link">News</a></li>
+                            <li class="header-menu-item"><a href="./about.html" class="header-menu-link">About</a></li>
+                            <li class="header-menu-item"><a href="./contact-us.html" class="header-menu-link">Contacts</a></li>
+                        </ul>
+                </div>
+                <div class="menu-container js-menu-container" id="mobile-menu">
+                    <button class="menu-toggle-close js-close-menu">
+                        <svg class="menu-close-icon" width="24px" height="24px">
+                            <use href="./img/sprite.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                
+                    <ul class="mobile-menu">
+                        <li class="mobile-menu-item"><a href="./index.html" class="mobile-menu-link active">Home</a></li>
+                        <li class="mobile-menu-item"><a href="./products.html" class="mobile-menu-link">Products</a></li>
+                        <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">News</a></li>
+                        <li class="mobile-menu-item"><a href="./about.html" class="mobile-menu-link">About</a></li>
+                        <li class="mobile-menu-item"><a href="./contact-us.html" class="mobile-menu-link">Contacts</a></li></ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--hero section-->
+    <main>
+        <section>
+            <div class="container">
+                <div class="herosection">
+                <div class="herosection-left">
+                    <h1 class="herosection-title">Crypto for <br /> institutions</h1>
+                    <p class="herosection-discription">Groundbreaking financial instruments for maximizing profit, while minimizing volatility and risk</p>
+                    <a class="herosection-btn" href="#demo">Request a demo</a>
+                </div>
+                <div class="herosection-right">
+                    <img src="img/section-illustration/illustration.jpg" alt="illustration">
+                </div>
+                </div>
+            </div>
+        </section>
+        <!--Products Section-->
+<section>
+    <div class="container">
+        <div class="info-products">
+            <div class="info-products-left">
+                <h2 class="info-products-left-title">Products</h2>
+            </div>
+            <div class="info-products-right">
+                <a class="info-products-right-title" href="./products.html">Learn more</a>
+            </div>
+        </div>
+        <ul class="card-products">
+            <li class="card">
+                <div class="card-img-wrapper">
+                    <div class="card-img">
+                        <svg class="card-img-item">
+                            <use href="./img/sprite.svg#icon-protected"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h3 class="card-title-item">Structured Crypto</h3>
+                </div>
+                <div class="card-discription">
+                    <p class="card-discription-item">A set of notes for implementing strategies of controlled exposure
+                        to a cryptocurrency’s price, to avoid significant
+                        losses from price volatility.</p>
+                </div>
+                <div class="card-btn">
+                    <a href=# class="card-link">
+                        <svg class="card-btn-next" width="21px">
+                            <use href="./img/sprite.svg#icon-right_light"></use>
+                        </svg>
+                        <!--<img class="card-btn-next" src="./img/card-icon/vector9.svg" />-->
+                    </a>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card-img-wrapper">
+                    <div class="card-top-notice">
+                        <p class="card-notice">Comming soon</p>
+                    </div>
+                    <div class="card-img">
+                        <svg class="card-img-item">
+                            <use href="./img/sprite.svg#icon-leaf"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h3 class="card-title-item">Smart <br /> Hedge</h3>
+                </div>
+                <div class="card-discription">
+                    <p class="card-discription-item">A set of products for implementing intelligent hedging strategies
+                        for systematic and unsystematic risk protection.</p>
+                </div>
+                <div class="card-btn">
+                    <a href=# class="card-link">
+                        <svg class="card-btn-next" width="21px">
+                            <use href="./img/sprite.svg#icon-right_light"></use>
+                        </svg>
+                        <!--<img class="card-btn-next" src="./img/card-icon/vector9.svg" />-->
+                    </a>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card-img-wrapper">
+                    <div class="card-top-notice">
+                        <p class="card-notice">Comming soon</p>
+                    </div>
+                    <div class="card-img">
+                        <svg class="card-img-item">
+                            <use href="./img/sprite.svg#icon-smart"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card-title">
+                    <h3 class="card-title-item">Green <br />Crypto</h3>
+                </div>
+                <div class="card-discription">
+                    <p class="card-discription-item">A set of products for offsetting the carbon footprint of crypto
+                        assets and for investing in ESG-related securities.</p>
+                </div>
+                <div class="card-btn">
+                    <a href=# class="card-link">
+                        <svg class="card-btn-next" width="21px">
+                            <use href="./img/sprite.svg#icon-right_light"></use>
+                        </svg>
+                        <!--<img class="card-btn-next" src="./img/card-icon/vector9.svg" />-->
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+        <!--Solutions-->
+        <section class="solution">
+            <div class="container">
+                <h2 class="solution-title">Solutions</h2>
+                <div class="solution-block">
+                    <div class="solution-left">
+                        <div class="solution-left-img">
+                           <img class="solution-left-img-item" src="img/section-solution/vector.svg" alt="grey-figure">
+                        </div>
+                    </div>
+                    <div class="solution-right">
+                        <div class="solution-row">
+                            <div class="solution-column-left">
+                                <div class="solution-column-img-wrapper">
+                                <img class="solution-column-img" src="img/section-solution/money.svg" alt="icon-money"></div>
+                                <h3 class="solution-column-title">Funds</h3>
+                                <p class="solution-column-disc">Funds solution offers hedge funds, endowments, and pension funds exposure to the crypto asset class while mitigating
+                                risk.</p>
+                            </div>
+                            <div class="solution-column-right">
+                                <div class="solution-column-img-wrapper">
+                                <img class="solution-column-img" src="img/section-solution/people.svg" alt="icon-people"></div>
+                                <h3 class="solution-column-title">Corporate</h3>
+                                <p class="solution-column-disc">Corporate solution offers treasurers and CFOs tools that function as a store of value, with attractive yet solid yields,
+                                and inflation hedge.</p>
+                            </div>
+                        </div>
+                        <div class="solution-row">
+                            <div class="solution-column-left">
+                                <div class="solution-column-img-wrapper"><img class="solution-column-img" src="img/section-solution/frame6.svg" alt="icon-banks"></div>
+                                <h3 class="solution-column-title">Banks</h3>
+                                <p class="solution-column-disc">Our white-label solution enables banks to respond to their customers' requests to invest in crypto, while protecting
+                                their money from extreme volatility.</p>
+                            </div>
+                            <div class="solution-column-right">
+                                <div class="solution-column-img-wrapper"><img class="solution-column-img" src="img/section-solution/home.svg" alt="icon-home"></div>
+                                <h3 class="solution-column-title">VCs and crypto
+                                companies</h3>
+                                <p class="solution-column-disc">Our solution for crypto companies and VCs with crypto assets enables hedging and yield generation for even the most
+                                volatile assets.</p>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Demo Form Section-->
+        <section>
+            <div class="container">
+                <div class="demo" id="demo">
+                    <div class="demo-left">
+                        <h3 class="demo-left-title">Request a Demo</h3>
+                        <p class="demo-left-disc">Please fill in the form below and one of our representatives will be in touch with you to schedule a demo.</p>
+                    </div>
+                    <div class="demo-right">
+                        <p>There will be a form</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<footer class="footer">
+<div class="container">
+    <ul class="footer-blocks">
+        <li class="footer-item">
+            <a href="./index.html" class="footer-logo">
+            <img src="./img/footer/whitelogo.svg" alt="whitelogo"></a>
+            <div class="footer-copyright">
+                <p>© 2021 Diversi.fi. <br />
+                All Rights Reserved.</p>
+            </div>
+            <ul class="footer-social-links">
+                <li class="footer-social-links-item"><a href="" class="footer-social"><img src="./img/footer/twitter.svg" alt="twitter" class="footer-social-link-icon"></a></li>
+                <li class="footer-social-links-item"><a href="" class="footer-social"><img src="./img/footer/linkedIn.svg" alt="linkedIn" class="footer-social-link-icon"></a></li>
+            </ul>
+        </li>
+        <li class="footer-item">
+            <h4 class="footer-title">
+                Company
+            </h4>
+            <ul class="footer-menu">
+                <li class="footer-menu-item"><a href="index.html" class="footer-menu-link">Home</a></li>
+                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
+                <li class="footer-menu-item"><a href="#" class="footer-menu-link">News</a></li>
+                <li class="footer-menu-item"><a href="#" class="footer-menu-link">About Us</a></li>
+                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contacts Us</a></li>
+                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Term of Use</a></li>
+                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy Policy</a></li>
+            </ul>
+        </li>
+        <li class="footer-item">
+            <h4 class="footer-title">Join our newsletter</h4>
+            <p class="footer-text">There will be a form</p>
+        </li>
+    </ul>
+</div>
+</footer>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+<script defer src="js/script.js"></script>
+</body>
+
+</html>

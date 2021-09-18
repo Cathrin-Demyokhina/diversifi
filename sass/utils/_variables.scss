@@ -1,0 +1,20 @@
+$dark-primary: #131720;
+$dark-2: #151c28;
+$dark-3: #3b4b63;
+$grey: #d7dbdf;
+$white: #ffffff;
+$blue-summer-sky: #41a5f7;
+
+$maxWidth: 1180;
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media screen and (max-width: 767px) {
+    font-size: calc(
+      #{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth})
+    );
+  }
+  @media screen and (min-width: 767px) {
+    font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+  }
+}

@@ -27,3 +27,10 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
+
+//dropdown block
+const button = document.querySelector('.dropdown-container');
+button.addEventListener('click', (event) => {
+  const target = event.target
+  target.classList.toggle('is-hidden')
+})

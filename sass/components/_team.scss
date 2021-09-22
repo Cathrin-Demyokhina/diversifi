@@ -10,6 +10,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 110px;
+  @media screen and (min-width: 768px) and (max-width: 1170px) {
+    justify-content: center;
+  }
 }
 .team-member {
   width: 574px;
@@ -20,6 +23,10 @@
   margin-bottom: 32px;
   position: relative;
   overflow: hidden;
+  @media screen and (max-width: 767px) {
+    height: auto;
+    padding: 40px 40px 230px 40px;
+  }
 }
 .team-name {
   font-family: Poppins;
@@ -43,11 +50,17 @@
   font-size: 16px;
   line-height: 24px;
   color: $dark-3;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
 }
 .team-bg {
   position: absolute;
   top: 40px;
   right: 38px;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 .team-img {
   position: absolute;

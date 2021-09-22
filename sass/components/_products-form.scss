@@ -1,0 +1,73 @@
+.products-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #e8eef6;
+  border-radius: 40px;
+
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: block;
+  }
+}
+
+.products-form-left {
+  background: linear-gradient(90.01deg, #41a5f7 -13.67%, #44e2de 100.02%);
+  max-width: 434px;
+  padding: 60px 72px 128px 100px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  @media screen and (max-width: 767px) {
+    max-width: 100%;
+    margin-bottom: 40px;
+    padding: 20px 40px 120px 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 0;
+  }
+}
+.products-form-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  @media screen and (max-width: 767px) {
+    left: -40px;
+  }
+}
+.products-form-right {
+  padding: 60px 100px 60px 0;
+  border-radius: 40px;
+  @media screen and (max-width: 767px) {
+    padding: 40px 20px;
+  }
+}
+.products-form-left-title {
+  margin: 0 0 10px 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  color: $white;
+  z-index: 2;
+  @media screen and (max-width: 767px) {
+    font-size: 24px;
+  }
+}
+
+.products-form-left-disc {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: $white;
+  line-height: 1.5;
+  z-index: 2;
+}
